@@ -1,0 +1,72 @@
+header .header-content{
+    text-align: center;
+}
+
+.buttons-contente img {
+    width: 4rem;
+    margin: 0 0.8rem 0 0;
+}
+
+.buttons-contente {
+    /* display: flex;
+    justify-content: center;
+    margin: 2.2rem 0; */
+    width: 48%;
+    margin: 2.2rem auto;
+    background-color: white;
+    border-radius: 0.8rem;
+}
+
+.buttons-contente a {
+    width: 20rem;
+    height: 8rem;
+    border-radius: 0.8rem;
+    margin: 1rem 0.8rem;
+    font: 700 2rem Archivo;
+    padding: 1rem 0;
+
+    display: inline-flex;
+    /* align-items: center;
+    justify-content: center; */
+
+    align-items: center;
+    padding: 30px;
+
+    text-decoration: none;
+    color: var(--color-title-in-origin);
+
+    transition: background-color 0.2;
+}
+
+.buttons-contente a.visualizarTurmas {
+ background: var(--color-background-card);
+}
+
+.buttons-contente a.grade {
+ background: var(--color-background-card);
+}
+
+.buttons-contente a.professores {
+ background: var(--color-background-card);
+}
+
+.buttons-contente a.visualizarTurmas:hover{
+    background-color: var(--color-button-4);
+}
+
+.buttons-contente a.grade:hover{
+    background-color: var(--color-button-4);
+}
+
+.buttons-contente a.professores:hover{
+    background-color: var(--color-button-4);
+}
+
+/* @media (max-width: 600px){
+    .buttons-contente{
+        display: grid;
+    }
+    .buttons-contente a{
+        margin: 0.8rem
+    }
+}  */

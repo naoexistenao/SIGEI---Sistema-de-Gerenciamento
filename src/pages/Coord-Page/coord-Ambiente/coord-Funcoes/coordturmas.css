@@ -1,0 +1,39 @@
+header .header-content{
+    text-align: center;
+}
+
+.buttons-turmas-coord img {
+    width: 4rem;
+}
+
+.buttons-turmas-coord {
+    max-width: 708px;
+    width: 53%;
+    margin: 2.2rem auto;
+    background-color: white;
+    border-radius: 0.8rem;
+}
+
+.buttons-turmas-coord a {
+    text-align: center;
+    width: 20rem;
+    height: 8rem;
+    border-radius: 0.8rem;
+    margin: 1rem 1.8rem;
+    font: 700 2rem Archivo;
+    padding: 1rem 0;
+
+    align-items: center;
+    padding: 30px;
+
+    display: inline-flex;
+
+    text-decoration: none;
+    color: var(--color-title-in-origin);
+
+    transition: background-color 0.2;
+}
+
+.buttons-turmas-coord a.turma {
+ background: var(--color-background-card);
+}
