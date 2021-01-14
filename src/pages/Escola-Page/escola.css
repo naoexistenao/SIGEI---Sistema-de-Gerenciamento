@@ -1,0 +1,39 @@
+#page{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* #page .page-header .header-content{
+    margin-bottom: 6.4rem;
+} */
+
+#page main{
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 74rem;
+    border-radius: 0.8rem;
+    margin: -3.2rem auto 3.2rem;
+    padding-top: 6.4rem;
+    overflow: hidden;
+}
+
+#page main fieldset{
+    border: 0;
+    padding: 0 2.4rem;
+    margin-bottom: 6.4rem;
+}
+
+#page main fieldset + fieldset{
+    margin-top: 6.4rem;
+}
+
+#page main fieldset legend{
+    font: 700 2.4rem Poppins;
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    padding-bottom: 1.6rem;
+    border-bottom: 2px solid var(--color-subtitles);
+}

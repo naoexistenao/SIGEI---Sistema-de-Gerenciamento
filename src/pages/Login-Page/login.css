@@ -1,0 +1,43 @@
+footer{
+    padding: 4rem 2.4rem;
+    border-top: 2px solid var(--color-subtitles);
+    margin-top: 6.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.4rem;
+    font-size: 1.4rem;
+    color: var(--color-subtitles);
+    width: 30rem;
+}
+
+footer a img{
+    margin-right: 2rem;
+    width: 3rem;
+}
+
+button{
+    width: 50%;
+    height: 5.6rem;
+    background-color: var(--color-button-4) ;
+    color: black;
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Poppins;
+    text-decoration: none;
+    transition: background-color 0.2s;
+
+}
+
+button:hover{
+    background-color: var(--color-button-3);
+}
+
